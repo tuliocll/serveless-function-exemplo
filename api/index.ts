@@ -1,5 +1,4 @@
 const app = require("express")();
-const { v4 } = require("uuid");
 const { createProxyMiddleware } = require("http-proxy-middleware");
 
 const SERVICE_URL = process.env.URL;

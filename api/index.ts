@@ -16,4 +16,16 @@ app.use(
   })
 );
 
+app.use(
+  "/",
+  createProxyMiddleware({
+    target: SERVICE_URL,
+    headers: {
+      "app-id": TOKEN,
+    },
+    secure: false,
+    changeOrigin: true,
+  })
+);
+
 module.exports = app;

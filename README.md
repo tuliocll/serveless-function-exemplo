@@ -13,6 +13,7 @@
 
 Exemplo de serveless function usando a Vercel + Express + Typescript + Proxy.
 Este exemplo ilustra uma alternativa para não deixar uma API Key ou Secret direto no Frontend/mobile. Fazendo a requisição com essa chave partir da serveless function.
+Este exemplo faz parte dessa talk aqui sobre segurança no React Native: https://dev.to/tuliocalil/seguranca-no-react-native-4jhl
 
 ## Rodando
 
